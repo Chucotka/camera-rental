@@ -16,6 +16,7 @@ export function Navigation({ currentPage = "home" }: NavigationProps) {
     { label: "ПРОКАТ ТЕХНИКИ", href: "/catalog" },
     { label: "ВИДЕОПРОИЗВОДСТВО", href: "/production" },
     { label: "НЕЙРОСЕТИ", href: "/ai-lab" },
+    { label: "ВСЕГДА ЖИВОЙ", href: "/vsegda-zhivoy" },
   ];
 
   return (

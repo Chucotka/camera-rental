@@ -18,6 +18,7 @@ import AdminBookings from "./pages/AdminBookings";
 import BookingSuccess from "./pages/BookingSuccess";
 import BookingCancel from "./pages/BookingCancel";
 import Orders from "./pages/Orders";
+import VsegdaZhivoy from "./VsegdaZhivoy";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -37,6 +38,7 @@ function Router() {
       <Route path={"/booking-success"} component={BookingSuccess} />
       <Route path={"/booking-cancel"} component={BookingCancel} />
       <Route path={"/orders"} component={Orders} />
+      <Route path={"/vsegda-zhivoy"} component={VsegdaZhivoy} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
